@@ -24,8 +24,11 @@ To start this app:
   1. git clone https://github.com/kevinblade/phoenix-mim.git
   2. cd phoenix-mim
   3. mix deps.get
-  3. iex --name master@localhost --cookie cookie@localhost mix -S phoenix.server
-  4. iex> :ejabberd_auth.try_register("username", "localhost", "password")
+  4. mkdir etc
+  5. cd etc
+  6. vi ejabberd.cfg
+  7. iex --name master@localhost --cookie cookie@localhost mix -S phoenix.server
+  8. iex> :ejabberd_auth.try_register("username", "localhost", "password")
 
 Now you can visit [`localhost:4000/ejabberd`](http://localhost:4000/ejabberd) from your browser.
 And then you will be able to see online users on your browser.
