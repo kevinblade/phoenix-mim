@@ -1,0 +1,159 @@
+2016-01-05 17:02:59.784 [error] <0.413.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':watcher(error_logger, 'Elixir.Logger.ErrorHandler', {true,false,500}, link) at <0.418.0> exit with reason normal in context child_terminated
+2016-01-05 17:03:02.128 [error] <0.474.0>@ejabberd_config:get_plain_terms_file:204 Problem loading ejabberd config file /Users/user1/Documents/Works/erlang/phoenix/phoenix_mim/etc/ejabberd.cfg : no such file or directory
+2016-01-05 17:13:29.055 [error] <0.259.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':watcher(error_logger, 'Elixir.Logger.ErrorHandler', {true,false,500}, link) at <0.264.0> exit with reason normal in context child_terminated
+2016-01-05 17:13:35.475 [critical] <0.340.0>@gen_mod:start_module:93 Problem starting the module mod_metrics for host <<"localhost">>
+ options: []
+ error: badarg
+[{ets,member,[folsom,{<<"localhost">>,sessionSuccessfulLogins}],[]},
+ {folsom_ets,handler_exists,1,[{file,"src/folsom_ets.erl"},{line,96}]},
+ {folsom_ets,add_handler,2,[{file,"src/folsom_ets.erl"},{line,64}]},
+ {mod_metrics,'-init_folsom/1-fun-0-',2,
+              [{file,"src/mod_metrics.erl"},{line,32}]},
+ {lists,foreach,2,[{file,"lists.erl"},{line,1336}]},
+ {mod_metrics,init_folsom,1,[{file,"src/mod_metrics.erl"},{line,31}]},
+ {mod_metrics,start,2,[{file,"src/mod_metrics.erl"},{line,17}]},
+ {gen_mod,start_module,3,[{file,"src/gen_mod.erl"},{line,82}]},
+ {lists,foreach,2,[{file,"lists.erl"},{line,1336}]},
+ {ejabberd_app,start,2,[{file,"src/ejabberd_app.erl"},{line,69}]},
+ {application_master,start_it_old,4,
+                     [{file,"application_master.erl"},{line,272}]}]
+2016-01-05 17:13:35.476 [critical] <0.340.0>@gen_mod:start_module:98 ejabberd initialization was aborted because a module start failed.
+The trace is [{ets,member,[folsom,{<<"localhost">>,sessionSuccessfulLogins}],[]},{folsom_ets,handler_exists,1,[{file,"src/folsom_ets.erl"},{line,96}]},{folsom_ets,add_handler,2,[{file,"src/folsom_ets.erl"},{line,64}]},{mod_metrics,'-init_folsom/1-fun-0-',2,[{file,"src/mod_metrics.erl"},{line,32}]},{lists,foreach,2,[{file,"lists.erl"},{line,1336}]},{mod_metrics,init_folsom,1,[{file,"src/mod_metrics.erl"},{line,31}]},{mod_metrics,start,2,[{file,"src/mod_metrics.erl"},{line,17}]},{gen_mod,start_module,3,[{file,"src/gen_mod.erl"},{line,82}]},{lists,foreach,2,[{file,"lists.erl"},{line,1336}]},{ejabberd_app,start,2,[{file,"src/ejabberd_app.erl"},{line,69}]},{application_master,start_it_old,4,[{file,"application_master.erl"},{line,272}]}].
+2016-01-05 17:16:12.855 [error] <0.259.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':watcher(error_logger, 'Elixir.Logger.ErrorHandler', {true,false,500}, link) at <0.264.0> exit with reason normal in context child_terminated
+2016-01-05 17:16:15.090 [critical] <0.393.0>@gen_mod:start_module:93 Problem starting the module mod_metrics for host <<"localhost">>
+ options: []
+ error: badarg
+[{ets,member,[folsom,{<<"localhost">>,sessionSuccessfulLogins}],[]},
+ {folsom_ets,handler_exists,1,[{file,"src/folsom_ets.erl"},{line,96}]},
+ {folsom_ets,add_handler,2,[{file,"src/folsom_ets.erl"},{line,64}]},
+ {mod_metrics,'-init_folsom/1-fun-0-',2,
+              [{file,"src/mod_metrics.erl"},{line,32}]},
+ {lists,foreach,2,[{file,"lists.erl"},{line,1336}]},
+ {mod_metrics,init_folsom,1,[{file,"src/mod_metrics.erl"},{line,31}]},
+ {mod_metrics,start,2,[{file,"src/mod_metrics.erl"},{line,17}]},
+ {gen_mod,start_module,3,[{file,"src/gen_mod.erl"},{line,82}]},
+ {lists,foreach,2,[{file,"lists.erl"},{line,1336}]},
+ {ejabberd_app,start,2,[{file,"src/ejabberd_app.erl"},{line,69}]},
+ {application_master,start_it_old,4,
+                     [{file,"application_master.erl"},{line,272}]}]
+2016-01-05 17:16:15.091 [critical] <0.393.0>@gen_mod:start_module:98 ejabberd initialization was aborted because a module start failed.
+The trace is [{ets,member,[folsom,{<<"localhost">>,sessionSuccessfulLogins}],[]},{folsom_ets,handler_exists,1,[{file,"src/folsom_ets.erl"},{line,96}]},{folsom_ets,add_handler,2,[{file,"src/folsom_ets.erl"},{line,64}]},{mod_metrics,'-init_folsom/1-fun-0-',2,[{file,"src/mod_metrics.erl"},{line,32}]},{lists,foreach,2,[{file,"lists.erl"},{line,1336}]},{mod_metrics,init_folsom,1,[{file,"src/mod_metrics.erl"},{line,31}]},{mod_metrics,start,2,[{file,"src/mod_metrics.erl"},{line,17}]},{gen_mod,start_module,3,[{file,"src/gen_mod.erl"},{line,82}]},{lists,foreach,2,[{file,"lists.erl"},{line,1336}]},{ejabberd_app,start,2,[{file,"src/ejabberd_app.erl"},{line,69}]},{application_master,start_it_old,4,[{file,"application_master.erl"},{line,272}]}].
+2016-01-05 17:18:02.151 [error] <0.259.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':watcher(error_logger, 'Elixir.Logger.ErrorHandler', {true,false,500}, link) at <0.264.0> exit with reason normal in context child_terminated
+2016-01-05 17:18:03.672 [error] <0.380.0> CRASH REPORT Process <0.380.0> with 0 neighbours exited with reason: bad argument in call to erlang:hd([]) in ejabberd_rdbms:compile_odbc_type_helper/0 line 100 in application_master:init/4 line 133
+2016-01-05 17:23:52.868 [error] <0.259.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':watcher(error_logger, 'Elixir.Logger.ErrorHandler', {true,false,500}, link) at <0.264.0> exit with reason normal in context child_terminated
+2016-01-05 17:23:54.884 [critical] <0.381.0>@gen_mod:start_module:93 Problem starting the module mod_metrics for host <<"localhost">>
+ options: []
+ error: badarg
+[{ets,member,[folsom,{<<"localhost">>,sessionSuccessfulLogins}],[]},
+ {folsom_ets,handler_exists,1,[{file,"src/folsom_ets.erl"},{line,96}]},
+ {folsom_ets,add_handler,2,[{file,"src/folsom_ets.erl"},{line,64}]},
+ {mod_metrics,'-init_folsom/1-fun-0-',2,
+              [{file,"src/mod_metrics.erl"},{line,32}]},
+ {lists,foreach,2,[{file,"lists.erl"},{line,1336}]},
+ {mod_metrics,init_folsom,1,[{file,"src/mod_metrics.erl"},{line,31}]},
+ {mod_metrics,start,2,[{file,"src/mod_metrics.erl"},{line,17}]},
+ {gen_mod,start_module,3,[{file,"src/gen_mod.erl"},{line,82}]},
+ {lists,foreach,2,[{file,"lists.erl"},{line,1336}]},
+ {ejabberd_app,start,2,[{file,"src/ejabberd_app.erl"},{line,69}]},
+ {application_master,start_it_old,4,
+                     [{file,"application_master.erl"},{line,272}]}]
+2016-01-05 17:23:54.885 [critical] <0.381.0>@gen_mod:start_module:98 ejabberd initialization was aborted because a module start failed.
+The trace is [{ets,member,[folsom,{<<"localhost">>,sessionSuccessfulLogins}],[]},{folsom_ets,handler_exists,1,[{file,"src/folsom_ets.erl"},{line,96}]},{folsom_ets,add_handler,2,[{file,"src/folsom_ets.erl"},{line,64}]},{mod_metrics,'-init_folsom/1-fun-0-',2,[{file,"src/mod_metrics.erl"},{line,32}]},{lists,foreach,2,[{file,"lists.erl"},{line,1336}]},{mod_metrics,init_folsom,1,[{file,"src/mod_metrics.erl"},{line,31}]},{mod_metrics,start,2,[{file,"src/mod_metrics.erl"},{line,17}]},{gen_mod,start_module,3,[{file,"src/gen_mod.erl"},{line,82}]},{lists,foreach,2,[{file,"lists.erl"},{line,1336}]},{ejabberd_app,start,2,[{file,"src/ejabberd_app.erl"},{line,69}]},{application_master,start_it_old,4,[{file,"application_master.erl"},{line,272}]}].
+2016-01-05 17:26:41.332 [error] <0.259.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':watcher(error_logger, 'Elixir.Logger.ErrorHandler', {true,false,500}, link) at <0.264.0> exit with reason normal in context child_terminated
+2016-01-05 17:26:43.304 [critical] <0.378.0>@gen_mod:start_module:93 Problem starting the module mod_metrics for host <<"localhost">>
+ options: []
+ error: badarg
+[{ets,member,[folsom,{<<"localhost">>,sessionSuccessfulLogins}],[]},
+ {folsom_ets,handler_exists,1,[{file,"src/folsom_ets.erl"},{line,96}]},
+ {folsom_ets,add_handler,2,[{file,"src/folsom_ets.erl"},{line,64}]},
+ {mod_metrics,'-init_folsom/1-fun-0-',2,
+              [{file,"src/mod_metrics.erl"},{line,32}]},
+ {lists,foreach,2,[{file,"lists.erl"},{line,1336}]},
+ {mod_metrics,init_folsom,1,[{file,"src/mod_metrics.erl"},{line,31}]},
+ {mod_metrics,start,2,[{file,"src/mod_metrics.erl"},{line,17}]},
+ {gen_mod,start_module,3,[{file,"src/gen_mod.erl"},{line,82}]},
+ {lists,foreach,2,[{file,"lists.erl"},{line,1336}]},
+ {ejabberd_app,start,2,[{file,"src/ejabberd_app.erl"},{line,69}]},
+ {application_master,start_it_old,4,
+                     [{file,"application_master.erl"},{line,272}]}]
+2016-01-05 17:26:43.305 [critical] <0.378.0>@gen_mod:start_module:98 ejabberd initialization was aborted because a module start failed.
+The trace is [{ets,member,[folsom,{<<"localhost">>,sessionSuccessfulLogins}],[]},{folsom_ets,handler_exists,1,[{file,"src/folsom_ets.erl"},{line,96}]},{folsom_ets,add_handler,2,[{file,"src/folsom_ets.erl"},{line,64}]},{mod_metrics,'-init_folsom/1-fun-0-',2,[{file,"src/mod_metrics.erl"},{line,32}]},{lists,foreach,2,[{file,"lists.erl"},{line,1336}]},{mod_metrics,init_folsom,1,[{file,"src/mod_metrics.erl"},{line,31}]},{mod_metrics,start,2,[{file,"src/mod_metrics.erl"},{line,17}]},{gen_mod,start_module,3,[{file,"src/gen_mod.erl"},{line,82}]},{lists,foreach,2,[{file,"lists.erl"},{line,1336}]},{ejabberd_app,start,2,[{file,"src/ejabberd_app.erl"},{line,69}]},{application_master,start_it_old,4,[{file,"application_master.erl"},{line,272}]}].
+2016-01-05 17:30:43.753 [error] <0.259.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':watcher(error_logger, 'Elixir.Logger.ErrorHandler', {true,false,500}, link) at <0.264.0> exit with reason normal in context child_terminated
+2016-01-05 17:30:49.077 [critical] <0.375.0>@gen_mod:start_module:93 Problem starting the module mod_metrics for host <<"chat.coddr.biz">>
+ options: []
+ error: badarg
+[{ets,member,[folsom,{<<"chat.coddr.biz">>,sessionSuccessfulLogins}],[]},
+ {folsom_ets,handler_exists,1,[{file,"src/folsom_ets.erl"},{line,96}]},
+ {folsom_ets,add_handler,2,[{file,"src/folsom_ets.erl"},{line,64}]},
+ {mod_metrics,'-init_folsom/1-fun-0-',2,
+              [{file,"src/mod_metrics.erl"},{line,32}]},
+ {lists,foreach,2,[{file,"lists.erl"},{line,1336}]},
+ {mod_metrics,init_folsom,1,[{file,"src/mod_metrics.erl"},{line,31}]},
+ {mod_metrics,start,2,[{file,"src/mod_metrics.erl"},{line,17}]},
+ {gen_mod,start_module,3,[{file,"src/gen_mod.erl"},{line,82}]},
+ {lists,foreach,2,[{file,"lists.erl"},{line,1336}]},
+ {ejabberd_app,start,2,[{file,"src/ejabberd_app.erl"},{line,69}]},
+ {application_master,start_it_old,4,
+                     [{file,"application_master.erl"},{line,272}]}]
+2016-01-05 17:30:49.077 [critical] <0.375.0>@gen_mod:start_module:98 ejabberd initialization was aborted because a module start failed.
+The trace is [{ets,member,[folsom,{<<"chat.coddr.biz">>,sessionSuccessfulLogins}],[]},{folsom_ets,handler_exists,1,[{file,"src/folsom_ets.erl"},{line,96}]},{folsom_ets,add_handler,2,[{file,"src/folsom_ets.erl"},{line,64}]},{mod_metrics,'-init_folsom/1-fun-0-',2,[{file,"src/mod_metrics.erl"},{line,32}]},{lists,foreach,2,[{file,"lists.erl"},{line,1336}]},{mod_metrics,init_folsom,1,[{file,"src/mod_metrics.erl"},{line,31}]},{mod_metrics,start,2,[{file,"src/mod_metrics.erl"},{line,17}]},{gen_mod,start_module,3,[{file,"src/gen_mod.erl"},{line,82}]},{lists,foreach,2,[{file,"lists.erl"},{line,1336}]},{ejabberd_app,start,2,[{file,"src/ejabberd_app.erl"},{line,69}]},{application_master,start_it_old,4,[{file,"application_master.erl"},{line,272}]}].
+2016-01-05 17:33:11.271 [error] <0.259.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':watcher(error_logger, 'Elixir.Logger.ErrorHandler', {true,false,500}, link) at <0.264.0> exit with reason normal in context child_terminated
+2016-01-05 17:33:17.949 [critical] <0.320.0>@gen_mod:start_module:93 Problem starting the module mod_metrics for host <<"localhost">>
+ options: []
+ error: badarg
+[{ets,member,[folsom,{<<"localhost">>,sessionSuccessfulLogins}],[]},
+ {folsom_ets,handler_exists,1,[{file,"src/folsom_ets.erl"},{line,96}]},
+ {folsom_ets,add_handler,2,[{file,"src/folsom_ets.erl"},{line,64}]},
+ {mod_metrics,'-init_folsom/1-fun-0-',2,
+              [{file,"src/mod_metrics.erl"},{line,32}]},
+ {lists,foreach,2,[{file,"lists.erl"},{line,1336}]},
+ {mod_metrics,init_folsom,1,[{file,"src/mod_metrics.erl"},{line,31}]},
+ {mod_metrics,start,2,[{file,"src/mod_metrics.erl"},{line,17}]},
+ {gen_mod,start_module,3,[{file,"src/gen_mod.erl"},{line,82}]},
+ {lists,foreach,2,[{file,"lists.erl"},{line,1336}]},
+ {ejabberd_app,start,2,[{file,"src/ejabberd_app.erl"},{line,69}]},
+ {application_master,start_it_old,4,
+                     [{file,"application_master.erl"},{line,272}]}]
+2016-01-05 17:33:17.950 [critical] <0.320.0>@gen_mod:start_module:98 ejabberd initialization was aborted because a module start failed.
+The trace is [{ets,member,[folsom,{<<"localhost">>,sessionSuccessfulLogins}],[]},{folsom_ets,handler_exists,1,[{file,"src/folsom_ets.erl"},{line,96}]},{folsom_ets,add_handler,2,[{file,"src/folsom_ets.erl"},{line,64}]},{mod_metrics,'-init_folsom/1-fun-0-',2,[{file,"src/mod_metrics.erl"},{line,32}]},{lists,foreach,2,[{file,"lists.erl"},{line,1336}]},{mod_metrics,init_folsom,1,[{file,"src/mod_metrics.erl"},{line,31}]},{mod_metrics,start,2,[{file,"src/mod_metrics.erl"},{line,17}]},{gen_mod,start_module,3,[{file,"src/gen_mod.erl"},{line,82}]},{lists,foreach,2,[{file,"lists.erl"},{line,1336}]},{ejabberd_app,start,2,[{file,"src/ejabberd_app.erl"},{line,69}]},{application_master,start_it_old,4,[{file,"application_master.erl"},{line,272}]}].
+2016-01-05 19:08:29.574 [error] <0.259.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':watcher(error_logger, 'Elixir.Logger.ErrorHandler', {true,false,500}, link) at <0.264.0> exit with reason normal in context child_terminated
+2016-01-05 19:08:36.389 [critical] <0.320.0>@gen_mod:start_module:93 Problem starting the module mod_metrics for host <<"kwangje_mac">>
+ options: []
+ error: badarg
+[{ets,member,[folsom,{<<"kwangje_mac">>,sessionSuccessfulLogins}],[]},
+ {folsom_ets,handler_exists,1,[{file,"src/folsom_ets.erl"},{line,96}]},
+ {folsom_ets,add_handler,2,[{file,"src/folsom_ets.erl"},{line,64}]},
+ {mod_metrics,'-init_folsom/1-fun-0-',2,
+              [{file,"src/mod_metrics.erl"},{line,32}]},
+ {lists,foreach,2,[{file,"lists.erl"},{line,1336}]},
+ {mod_metrics,init_folsom,1,[{file,"src/mod_metrics.erl"},{line,31}]},
+ {mod_metrics,start,2,[{file,"src/mod_metrics.erl"},{line,17}]},
+ {gen_mod,start_module,3,[{file,"src/gen_mod.erl"},{line,82}]},
+ {lists,foreach,2,[{file,"lists.erl"},{line,1336}]},
+ {ejabberd_app,start,2,[{file,"src/ejabberd_app.erl"},{line,69}]},
+ {application_master,start_it_old,4,
+                     [{file,"application_master.erl"},{line,272}]}]
+2016-01-05 19:08:36.389 [critical] <0.320.0>@gen_mod:start_module:98 ejabberd initialization was aborted because a module start failed.
+The trace is [{ets,member,[folsom,{<<"kwangje_mac">>,sessionSuccessfulLogins}],[]},{folsom_ets,handler_exists,1,[{file,"src/folsom_ets.erl"},{line,96}]},{folsom_ets,add_handler,2,[{file,"src/folsom_ets.erl"},{line,64}]},{mod_metrics,'-init_folsom/1-fun-0-',2,[{file,"src/mod_metrics.erl"},{line,32}]},{lists,foreach,2,[{file,"lists.erl"},{line,1336}]},{mod_metrics,init_folsom,1,[{file,"src/mod_metrics.erl"},{line,31}]},{mod_metrics,start,2,[{file,"src/mod_metrics.erl"},{line,17}]},{gen_mod,start_module,3,[{file,"src/gen_mod.erl"},{line,82}]},{lists,foreach,2,[{file,"lists.erl"},{line,1336}]},{ejabberd_app,start,2,[{file,"src/ejabberd_app.erl"},{line,69}]},{application_master,start_it_old,4,[{file,"application_master.erl"},{line,272}]}].
+2016-01-05 19:09:55.438 [error] <0.339.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':watcher(error_logger, 'Elixir.Logger.ErrorHandler', {true,false,500}, link) at <0.344.0> exit with reason normal in context child_terminated
+2016-01-05 19:27:49.481 [error] <0.259.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':watcher(error_logger, 'Elixir.Logger.ErrorHandler', {true,false,500}, link) at <0.264.0> exit with reason normal in context child_terminated
+2016-01-05 19:34:29.609 [error] <0.339.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':watcher(error_logger, 'Elixir.Logger.ErrorHandler', {true,false,500}, link) at <0.344.0> exit with reason normal in context child_terminated
+2016-01-05 19:37:17.064 [error] <0.259.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':watcher(error_logger, 'Elixir.Logger.ErrorHandler', {true,false,500}, link) at <0.264.0> exit with reason normal in context child_terminated
+2016-01-05 19:45:35.967 [error] <0.339.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':watcher(error_logger, 'Elixir.Logger.ErrorHandler', {true,false,500}, link) at <0.344.0> exit with reason normal in context child_terminated
+2016-01-05 19:55:29.142 [error] <0.345.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':watcher(error_logger, 'Elixir.Logger.ErrorHandler', {true,false,500}, link) at <0.350.0> exit with reason normal in context child_terminated
+2016-01-05 20:43:56.102 [error] <0.361.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':watcher(error_logger, 'Elixir.Logger.ErrorHandler', {true,false,500}, link) at <0.366.0> exit with reason normal in context child_terminated
+2016-01-05 20:47:52.608 [error] <0.361.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':watcher(error_logger, 'Elixir.Logger.ErrorHandler', {true,false,500}, link) at <0.366.0> exit with reason normal in context child_terminated
+2016-01-05 21:07:43.692 [error] <0.265.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':watcher(error_logger, 'Elixir.Logger.ErrorHandler', {true,false,500}, link) at <0.270.0> exit with reason normal in context child_terminated
+2016-01-05 21:14:35.754 [error] <0.265.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':watcher(error_logger, 'Elixir.Logger.ErrorHandler', {true,false,500}, link) at <0.270.0> exit with reason normal in context child_terminated
+2016-01-05 21:27:18.817 [error] <0.265.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':watcher(error_logger, 'Elixir.Logger.ErrorHandler', {true,false,500}, link) at <0.270.0> exit with reason normal in context child_terminated
+2016-01-05 21:49:01.911 [error] <0.361.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':watcher(error_logger, 'Elixir.Logger.ErrorHandler', {true,false,500}, link) at <0.366.0> exit with reason normal in context child_terminated
+2016-01-05 22:28:34.134 [error] <0.265.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':watcher(error_logger, 'Elixir.Logger.ErrorHandler', {true,false,500}, link) at <0.270.0> exit with reason normal in context child_terminated
+2016-01-05 22:29:30.244 [error] <0.265.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':watcher(error_logger, 'Elixir.Logger.ErrorHandler', {true,false,500}, link) at <0.270.0> exit with reason normal in context child_terminated
+2016-01-05 22:55:00.310 [error] <0.2364.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':watcher(error_logger, 'Elixir.Logger.ErrorHandler', {true,false,500}, link) at <0.2369.0> exit with reason normal in context child_terminated
+2016-01-05 23:05:41.117 [error] <0.438.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':watcher(error_logger, 'Elixir.Logger.ErrorHandler', {true,false,500}, link) at <0.443.0> exit with reason normal in context child_terminated
+2016-01-05 23:10:25.503 [error] <0.329.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':watcher(error_logger, 'Elixir.Logger.ErrorHandler', {true,false,500}, link) at <0.334.0> exit with reason normal in context child_terminated
+2016-01-06 12:00:39.873 [error] <0.365.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':watcher(error_logger, 'Elixir.Logger.ErrorHandler', {true,false,500}, link) at <0.370.0> exit with reason normal in context child_terminated
+2016-01-06 12:08:48.007 [error] <0.365.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':watcher(error_logger, 'Elixir.Logger.ErrorHandler', {true,false,500}, link) at <0.370.0> exit with reason normal in context child_terminated
+2016-01-06 12:09:23.837 [error] <0.365.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':watcher(error_logger, 'Elixir.Logger.ErrorHandler', {true,false,500}, link) at <0.370.0> exit with reason normal in context child_terminated
+2016-01-06 12:12:35.583 [error] <0.365.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':watcher(error_logger, 'Elixir.Logger.ErrorHandler', {true,false,500}, link) at <0.370.0> exit with reason normal in context child_terminated
+2016-01-06 12:18:03.998 [error] <0.269.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':watcher(error_logger, 'Elixir.Logger.ErrorHandler', {true,false,500}, link) at <0.274.0> exit with reason normal in context child_terminated

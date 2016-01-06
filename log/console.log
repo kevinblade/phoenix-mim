@@ -1,0 +1,377 @@
+2016-01-05 17:02:59.784 [error] <0.413.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':watcher(error_logger, 'Elixir.Logger.ErrorHandler', {true,false,500}, link) at <0.418.0> exit with reason normal in context child_terminated
+2016-01-05 17:02:59.819 [info] <0.7.0> Application lager started on node nonode@nohost
+2016-01-05 17:03:00.480 [info] <0.7.0> Application mnesia exited with reason: stopped
+2016-01-05 17:03:00.544 [info] <0.7.0> Application mnesia started on node nonode@nohost
+2016-01-05 17:03:00.593 [info] <0.7.0> Application p1_cache_tab started on node nonode@nohost
+2016-01-05 17:03:02.128 [error] <0.474.0>@ejabberd_config:get_plain_terms_file:204 Problem loading ejabberd config file /Users/user1/Documents/Works/erlang/phoenix/phoenix_mim/etc/ejabberd.cfg : no such file or directory
+2016-01-05 17:13:29.055 [error] <0.259.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':watcher(error_logger, 'Elixir.Logger.ErrorHandler', {true,false,500}, link) at <0.264.0> exit with reason normal in context child_terminated
+2016-01-05 17:13:29.142 [info] <0.7.0> Application lager started on node nonode@nohost
+2016-01-05 17:13:29.686 [info] <0.7.0> Application mnesia exited with reason: stopped
+2016-01-05 17:13:29.686 [info] <0.7.0> Application mnesia started on node nonode@nohost
+2016-01-05 17:13:29.690 [info] <0.7.0> Application p1_cache_tab started on node nonode@nohost
+2016-01-05 17:13:31.704 [info] <0.340.0>@mod_stream_management:start:35 mod_stream_management starting
+2016-01-05 17:13:35.475 [critical] <0.340.0>@gen_mod:start_module:93 Problem starting the module mod_metrics for host <<"localhost">>
+ options: []
+ error: badarg
+[{ets,member,[folsom,{<<"localhost">>,sessionSuccessfulLogins}],[]},
+ {folsom_ets,handler_exists,1,[{file,"src/folsom_ets.erl"},{line,96}]},
+ {folsom_ets,add_handler,2,[{file,"src/folsom_ets.erl"},{line,64}]},
+ {mod_metrics,'-init_folsom/1-fun-0-',2,
+              [{file,"src/mod_metrics.erl"},{line,32}]},
+ {lists,foreach,2,[{file,"lists.erl"},{line,1336}]},
+ {mod_metrics,init_folsom,1,[{file,"src/mod_metrics.erl"},{line,31}]},
+ {mod_metrics,start,2,[{file,"src/mod_metrics.erl"},{line,17}]},
+ {gen_mod,start_module,3,[{file,"src/gen_mod.erl"},{line,82}]},
+ {lists,foreach,2,[{file,"lists.erl"},{line,1336}]},
+ {ejabberd_app,start,2,[{file,"src/ejabberd_app.erl"},{line,69}]},
+ {application_master,start_it_old,4,
+                     [{file,"application_master.erl"},{line,272}]}]
+2016-01-05 17:13:35.476 [critical] <0.340.0>@gen_mod:start_module:98 ejabberd initialization was aborted because a module start failed.
+The trace is [{ets,member,[folsom,{<<"localhost">>,sessionSuccessfulLogins}],[]},{folsom_ets,handler_exists,1,[{file,"src/folsom_ets.erl"},{line,96}]},{folsom_ets,add_handler,2,[{file,"src/folsom_ets.erl"},{line,64}]},{mod_metrics,'-init_folsom/1-fun-0-',2,[{file,"src/mod_metrics.erl"},{line,32}]},{lists,foreach,2,[{file,"lists.erl"},{line,1336}]},{mod_metrics,init_folsom,1,[{file,"src/mod_metrics.erl"},{line,31}]},{mod_metrics,start,2,[{file,"src/mod_metrics.erl"},{line,17}]},{gen_mod,start_module,3,[{file,"src/gen_mod.erl"},{line,82}]},{lists,foreach,2,[{file,"lists.erl"},{line,1336}]},{ejabberd_app,start,2,[{file,"src/ejabberd_app.erl"},{line,69}]},{application_master,start_it_old,4,[{file,"application_master.erl"},{line,272}]}].
+2016-01-05 17:16:12.855 [error] <0.259.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':watcher(error_logger, 'Elixir.Logger.ErrorHandler', {true,false,500}, link) at <0.264.0> exit with reason normal in context child_terminated
+2016-01-05 17:16:13.018 [info] <0.7.0> Application lager started on node nonode@nohost
+2016-01-05 17:16:13.645 [info] <0.7.0> Application mnesia exited with reason: stopped
+2016-01-05 17:16:13.645 [info] <0.7.0> Application mnesia started on node nonode@nohost
+2016-01-05 17:16:13.650 [info] <0.7.0> Application p1_cache_tab started on node nonode@nohost
+2016-01-05 17:16:14.818 [info] <0.393.0>@mod_stream_management:start:35 mod_stream_management starting
+2016-01-05 17:16:15.090 [critical] <0.393.0>@gen_mod:start_module:93 Problem starting the module mod_metrics for host <<"localhost">>
+ options: []
+ error: badarg
+[{ets,member,[folsom,{<<"localhost">>,sessionSuccessfulLogins}],[]},
+ {folsom_ets,handler_exists,1,[{file,"src/folsom_ets.erl"},{line,96}]},
+ {folsom_ets,add_handler,2,[{file,"src/folsom_ets.erl"},{line,64}]},
+ {mod_metrics,'-init_folsom/1-fun-0-',2,
+              [{file,"src/mod_metrics.erl"},{line,32}]},
+ {lists,foreach,2,[{file,"lists.erl"},{line,1336}]},
+ {mod_metrics,init_folsom,1,[{file,"src/mod_metrics.erl"},{line,31}]},
+ {mod_metrics,start,2,[{file,"src/mod_metrics.erl"},{line,17}]},
+ {gen_mod,start_module,3,[{file,"src/gen_mod.erl"},{line,82}]},
+ {lists,foreach,2,[{file,"lists.erl"},{line,1336}]},
+ {ejabberd_app,start,2,[{file,"src/ejabberd_app.erl"},{line,69}]},
+ {application_master,start_it_old,4,
+                     [{file,"application_master.erl"},{line,272}]}]
+2016-01-05 17:16:15.091 [critical] <0.393.0>@gen_mod:start_module:98 ejabberd initialization was aborted because a module start failed.
+The trace is [{ets,member,[folsom,{<<"localhost">>,sessionSuccessfulLogins}],[]},{folsom_ets,handler_exists,1,[{file,"src/folsom_ets.erl"},{line,96}]},{folsom_ets,add_handler,2,[{file,"src/folsom_ets.erl"},{line,64}]},{mod_metrics,'-init_folsom/1-fun-0-',2,[{file,"src/mod_metrics.erl"},{line,32}]},{lists,foreach,2,[{file,"lists.erl"},{line,1336}]},{mod_metrics,init_folsom,1,[{file,"src/mod_metrics.erl"},{line,31}]},{mod_metrics,start,2,[{file,"src/mod_metrics.erl"},{line,17}]},{gen_mod,start_module,3,[{file,"src/gen_mod.erl"},{line,82}]},{lists,foreach,2,[{file,"lists.erl"},{line,1336}]},{ejabberd_app,start,2,[{file,"src/ejabberd_app.erl"},{line,69}]},{application_master,start_it_old,4,[{file,"application_master.erl"},{line,272}]}].
+2016-01-05 17:18:02.151 [error] <0.259.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':watcher(error_logger, 'Elixir.Logger.ErrorHandler', {true,false,500}, link) at <0.264.0> exit with reason normal in context child_terminated
+2016-01-05 17:18:02.295 [info] <0.7.0> Application lager started on node nonode@nohost
+2016-01-05 17:18:02.624 [info] <0.7.0> Application mnesia exited with reason: stopped
+2016-01-05 17:18:02.625 [info] <0.7.0> Application mnesia started on node nonode@nohost
+2016-01-05 17:18:02.643 [info] <0.7.0> Application p1_cache_tab started on node nonode@nohost
+2016-01-05 17:18:03.672 [error] <0.380.0> CRASH REPORT Process <0.380.0> with 0 neighbours exited with reason: bad argument in call to erlang:hd([]) in ejabberd_rdbms:compile_odbc_type_helper/0 line 100 in application_master:init/4 line 133
+2016-01-05 17:18:03.883 [info] <0.7.0> Application ejabberd exited with reason: bad argument in call to erlang:hd([]) in ejabberd_rdbms:compile_odbc_type_helper/0 line 100
+2016-01-05 17:18:03.883 [info] <0.7.0> Application exml exited with reason: stopped
+2016-01-05 17:18:03.883 [info] <0.7.0> Application p1_stringprep exited with reason: stopped
+2016-01-05 17:18:03.883 [info] <0.7.0> Application mnesia exited with reason: stopped
+2016-01-05 17:18:03.884 [info] <0.7.0> Application sasl exited with reason: stopped
+2016-01-05 17:18:03.884 [info] <0.7.0> Application mariaex exited with reason: stopped
+2016-01-05 17:18:03.884 [info] <0.7.0> Application phoenix_ecto exited with reason: stopped
+2016-01-05 17:18:03.885 [info] <0.7.0> Application ecto exited with reason: stopped
+2016-01-05 17:18:03.885 [info] <0.7.0> Application poolboy exited with reason: stopped
+2016-01-05 17:18:03.886 [info] <0.7.0> Application decimal exited with reason: stopped
+2016-01-05 17:18:03.886 [info] <0.7.0> Application gettext exited with reason: stopped
+2016-01-05 17:18:03.886 [info] <0.7.0> Application cowboy exited with reason: stopped
+2016-01-05 17:18:03.886 [info] <0.7.0> Application cowlib exited with reason: stopped
+2016-01-05 17:18:03.887 [info] <0.7.0> Application ranch exited with reason: stopped
+2016-01-05 17:18:03.887 [info] <0.7.0> Application phoenix_html exited with reason: stopped
+2016-01-05 17:18:03.888 [info] <0.7.0> Application logger exited with reason: stopped
+2016-01-05 17:23:52.868 [error] <0.259.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':watcher(error_logger, 'Elixir.Logger.ErrorHandler', {true,false,500}, link) at <0.264.0> exit with reason normal in context child_terminated
+2016-01-05 17:23:52.965 [info] <0.7.0> Application lager started on node nonode@nohost
+2016-01-05 17:23:53.578 [info] <0.7.0> Application mnesia exited with reason: stopped
+2016-01-05 17:23:53.579 [info] <0.7.0> Application mnesia started on node nonode@nohost
+2016-01-05 17:23:53.604 [info] <0.7.0> Application p1_cache_tab started on node nonode@nohost
+2016-01-05 17:23:54.681 [info] <0.381.0>@mod_stream_management:start:35 mod_stream_management starting
+2016-01-05 17:23:54.884 [critical] <0.381.0>@gen_mod:start_module:93 Problem starting the module mod_metrics for host <<"localhost">>
+ options: []
+ error: badarg
+[{ets,member,[folsom,{<<"localhost">>,sessionSuccessfulLogins}],[]},
+ {folsom_ets,handler_exists,1,[{file,"src/folsom_ets.erl"},{line,96}]},
+ {folsom_ets,add_handler,2,[{file,"src/folsom_ets.erl"},{line,64}]},
+ {mod_metrics,'-init_folsom/1-fun-0-',2,
+              [{file,"src/mod_metrics.erl"},{line,32}]},
+ {lists,foreach,2,[{file,"lists.erl"},{line,1336}]},
+ {mod_metrics,init_folsom,1,[{file,"src/mod_metrics.erl"},{line,31}]},
+ {mod_metrics,start,2,[{file,"src/mod_metrics.erl"},{line,17}]},
+ {gen_mod,start_module,3,[{file,"src/gen_mod.erl"},{line,82}]},
+ {lists,foreach,2,[{file,"lists.erl"},{line,1336}]},
+ {ejabberd_app,start,2,[{file,"src/ejabberd_app.erl"},{line,69}]},
+ {application_master,start_it_old,4,
+                     [{file,"application_master.erl"},{line,272}]}]
+2016-01-05 17:23:54.885 [critical] <0.381.0>@gen_mod:start_module:98 ejabberd initialization was aborted because a module start failed.
+The trace is [{ets,member,[folsom,{<<"localhost">>,sessionSuccessfulLogins}],[]},{folsom_ets,handler_exists,1,[{file,"src/folsom_ets.erl"},{line,96}]},{folsom_ets,add_handler,2,[{file,"src/folsom_ets.erl"},{line,64}]},{mod_metrics,'-init_folsom/1-fun-0-',2,[{file,"src/mod_metrics.erl"},{line,32}]},{lists,foreach,2,[{file,"lists.erl"},{line,1336}]},{mod_metrics,init_folsom,1,[{file,"src/mod_metrics.erl"},{line,31}]},{mod_metrics,start,2,[{file,"src/mod_metrics.erl"},{line,17}]},{gen_mod,start_module,3,[{file,"src/gen_mod.erl"},{line,82}]},{lists,foreach,2,[{file,"lists.erl"},{line,1336}]},{ejabberd_app,start,2,[{file,"src/ejabberd_app.erl"},{line,69}]},{application_master,start_it_old,4,[{file,"application_master.erl"},{line,272}]}].
+2016-01-05 17:26:41.332 [error] <0.259.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':watcher(error_logger, 'Elixir.Logger.ErrorHandler', {true,false,500}, link) at <0.264.0> exit with reason normal in context child_terminated
+2016-01-05 17:26:41.431 [info] <0.7.0> Application lager started on node nonode@nohost
+2016-01-05 17:26:41.989 [info] <0.7.0> Application mnesia exited with reason: stopped
+2016-01-05 17:26:41.989 [info] <0.7.0> Application mnesia started on node nonode@nohost
+2016-01-05 17:26:42.011 [info] <0.7.0> Application p1_cache_tab started on node nonode@nohost
+2016-01-05 17:26:43.112 [info] <0.378.0>@mod_stream_management:start:35 mod_stream_management starting
+2016-01-05 17:26:43.304 [critical] <0.378.0>@gen_mod:start_module:93 Problem starting the module mod_metrics for host <<"localhost">>
+ options: []
+ error: badarg
+[{ets,member,[folsom,{<<"localhost">>,sessionSuccessfulLogins}],[]},
+ {folsom_ets,handler_exists,1,[{file,"src/folsom_ets.erl"},{line,96}]},
+ {folsom_ets,add_handler,2,[{file,"src/folsom_ets.erl"},{line,64}]},
+ {mod_metrics,'-init_folsom/1-fun-0-',2,
+              [{file,"src/mod_metrics.erl"},{line,32}]},
+ {lists,foreach,2,[{file,"lists.erl"},{line,1336}]},
+ {mod_metrics,init_folsom,1,[{file,"src/mod_metrics.erl"},{line,31}]},
+ {mod_metrics,start,2,[{file,"src/mod_metrics.erl"},{line,17}]},
+ {gen_mod,start_module,3,[{file,"src/gen_mod.erl"},{line,82}]},
+ {lists,foreach,2,[{file,"lists.erl"},{line,1336}]},
+ {ejabberd_app,start,2,[{file,"src/ejabberd_app.erl"},{line,69}]},
+ {application_master,start_it_old,4,
+                     [{file,"application_master.erl"},{line,272}]}]
+2016-01-05 17:26:43.305 [critical] <0.378.0>@gen_mod:start_module:98 ejabberd initialization was aborted because a module start failed.
+The trace is [{ets,member,[folsom,{<<"localhost">>,sessionSuccessfulLogins}],[]},{folsom_ets,handler_exists,1,[{file,"src/folsom_ets.erl"},{line,96}]},{folsom_ets,add_handler,2,[{file,"src/folsom_ets.erl"},{line,64}]},{mod_metrics,'-init_folsom/1-fun-0-',2,[{file,"src/mod_metrics.erl"},{line,32}]},{lists,foreach,2,[{file,"lists.erl"},{line,1336}]},{mod_metrics,init_folsom,1,[{file,"src/mod_metrics.erl"},{line,31}]},{mod_metrics,start,2,[{file,"src/mod_metrics.erl"},{line,17}]},{gen_mod,start_module,3,[{file,"src/gen_mod.erl"},{line,82}]},{lists,foreach,2,[{file,"lists.erl"},{line,1336}]},{ejabberd_app,start,2,[{file,"src/ejabberd_app.erl"},{line,69}]},{application_master,start_it_old,4,[{file,"application_master.erl"},{line,272}]}].
+2016-01-05 17:30:43.753 [error] <0.259.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':watcher(error_logger, 'Elixir.Logger.ErrorHandler', {true,false,500}, link) at <0.264.0> exit with reason normal in context child_terminated
+2016-01-05 17:30:44.217 [info] <0.7.0> Application lager started on node nonode@nohost
+2016-01-05 17:30:46.108 [info] <0.7.0> Application mnesia exited with reason: stopped
+2016-01-05 17:30:46.108 [info] <0.7.0> Application mnesia started on node nonode@nohost
+2016-01-05 17:30:46.124 [info] <0.7.0> Application p1_cache_tab started on node nonode@nohost
+2016-01-05 17:30:48.874 [info] <0.375.0>@mod_stream_management:start:35 mod_stream_management starting
+2016-01-05 17:30:49.077 [critical] <0.375.0>@gen_mod:start_module:93 Problem starting the module mod_metrics for host <<"chat.coddr.biz">>
+ options: []
+ error: badarg
+[{ets,member,[folsom,{<<"chat.coddr.biz">>,sessionSuccessfulLogins}],[]},
+ {folsom_ets,handler_exists,1,[{file,"src/folsom_ets.erl"},{line,96}]},
+ {folsom_ets,add_handler,2,[{file,"src/folsom_ets.erl"},{line,64}]},
+ {mod_metrics,'-init_folsom/1-fun-0-',2,
+              [{file,"src/mod_metrics.erl"},{line,32}]},
+ {lists,foreach,2,[{file,"lists.erl"},{line,1336}]},
+ {mod_metrics,init_folsom,1,[{file,"src/mod_metrics.erl"},{line,31}]},
+ {mod_metrics,start,2,[{file,"src/mod_metrics.erl"},{line,17}]},
+ {gen_mod,start_module,3,[{file,"src/gen_mod.erl"},{line,82}]},
+ {lists,foreach,2,[{file,"lists.erl"},{line,1336}]},
+ {ejabberd_app,start,2,[{file,"src/ejabberd_app.erl"},{line,69}]},
+ {application_master,start_it_old,4,
+                     [{file,"application_master.erl"},{line,272}]}]
+2016-01-05 17:30:49.077 [critical] <0.375.0>@gen_mod:start_module:98 ejabberd initialization was aborted because a module start failed.
+The trace is [{ets,member,[folsom,{<<"chat.coddr.biz">>,sessionSuccessfulLogins}],[]},{folsom_ets,handler_exists,1,[{file,"src/folsom_ets.erl"},{line,96}]},{folsom_ets,add_handler,2,[{file,"src/folsom_ets.erl"},{line,64}]},{mod_metrics,'-init_folsom/1-fun-0-',2,[{file,"src/mod_metrics.erl"},{line,32}]},{lists,foreach,2,[{file,"lists.erl"},{line,1336}]},{mod_metrics,init_folsom,1,[{file,"src/mod_metrics.erl"},{line,31}]},{mod_metrics,start,2,[{file,"src/mod_metrics.erl"},{line,17}]},{gen_mod,start_module,3,[{file,"src/gen_mod.erl"},{line,82}]},{lists,foreach,2,[{file,"lists.erl"},{line,1336}]},{ejabberd_app,start,2,[{file,"src/ejabberd_app.erl"},{line,69}]},{application_master,start_it_old,4,[{file,"application_master.erl"},{line,272}]}].
+2016-01-05 17:33:11.271 [error] <0.259.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':watcher(error_logger, 'Elixir.Logger.ErrorHandler', {true,false,500}, link) at <0.264.0> exit with reason normal in context child_terminated
+2016-01-05 17:33:11.389 [info] <0.7.0> Application lager started on node nonode@nohost
+2016-01-05 17:33:11.742 [info] <0.7.0> Application mnesia exited with reason: stopped
+2016-01-05 17:33:11.773 [info] <0.7.0> Application mnesia started on node nonode@nohost
+2016-01-05 17:33:11.792 [info] <0.7.0> Application p1_cache_tab started on node nonode@nohost
+2016-01-05 17:33:14.171 [info] <0.320.0>@mod_stream_management:start:35 mod_stream_management starting
+2016-01-05 17:33:17.949 [critical] <0.320.0>@gen_mod:start_module:93 Problem starting the module mod_metrics for host <<"localhost">>
+ options: []
+ error: badarg
+[{ets,member,[folsom,{<<"localhost">>,sessionSuccessfulLogins}],[]},
+ {folsom_ets,handler_exists,1,[{file,"src/folsom_ets.erl"},{line,96}]},
+ {folsom_ets,add_handler,2,[{file,"src/folsom_ets.erl"},{line,64}]},
+ {mod_metrics,'-init_folsom/1-fun-0-',2,
+              [{file,"src/mod_metrics.erl"},{line,32}]},
+ {lists,foreach,2,[{file,"lists.erl"},{line,1336}]},
+ {mod_metrics,init_folsom,1,[{file,"src/mod_metrics.erl"},{line,31}]},
+ {mod_metrics,start,2,[{file,"src/mod_metrics.erl"},{line,17}]},
+ {gen_mod,start_module,3,[{file,"src/gen_mod.erl"},{line,82}]},
+ {lists,foreach,2,[{file,"lists.erl"},{line,1336}]},
+ {ejabberd_app,start,2,[{file,"src/ejabberd_app.erl"},{line,69}]},
+ {application_master,start_it_old,4,
+                     [{file,"application_master.erl"},{line,272}]}]
+2016-01-05 17:33:17.950 [critical] <0.320.0>@gen_mod:start_module:98 ejabberd initialization was aborted because a module start failed.
+The trace is [{ets,member,[folsom,{<<"localhost">>,sessionSuccessfulLogins}],[]},{folsom_ets,handler_exists,1,[{file,"src/folsom_ets.erl"},{line,96}]},{folsom_ets,add_handler,2,[{file,"src/folsom_ets.erl"},{line,64}]},{mod_metrics,'-init_folsom/1-fun-0-',2,[{file,"src/mod_metrics.erl"},{line,32}]},{lists,foreach,2,[{file,"lists.erl"},{line,1336}]},{mod_metrics,init_folsom,1,[{file,"src/mod_metrics.erl"},{line,31}]},{mod_metrics,start,2,[{file,"src/mod_metrics.erl"},{line,17}]},{gen_mod,start_module,3,[{file,"src/gen_mod.erl"},{line,82}]},{lists,foreach,2,[{file,"lists.erl"},{line,1336}]},{ejabberd_app,start,2,[{file,"src/ejabberd_app.erl"},{line,69}]},{application_master,start_it_old,4,[{file,"application_master.erl"},{line,272}]}].
+2016-01-05 19:08:29.574 [error] <0.259.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':watcher(error_logger, 'Elixir.Logger.ErrorHandler', {true,false,500}, link) at <0.264.0> exit with reason normal in context child_terminated
+2016-01-05 19:08:29.683 [info] <0.7.0> Application lager started on node nonode@nohost
+2016-01-05 19:08:30.210 [info] <0.7.0> Application mnesia exited with reason: stopped
+2016-01-05 19:08:30.211 [info] <0.7.0> Application mnesia started on node nonode@nohost
+2016-01-05 19:08:30.285 [info] <0.7.0> Application p1_cache_tab started on node nonode@nohost
+2016-01-05 19:08:33.407 [info] <0.320.0>@mod_stream_management:start:35 mod_stream_management starting
+2016-01-05 19:08:36.389 [critical] <0.320.0>@gen_mod:start_module:93 Problem starting the module mod_metrics for host <<"kwangje_mac">>
+ options: []
+ error: badarg
+[{ets,member,[folsom,{<<"kwangje_mac">>,sessionSuccessfulLogins}],[]},
+ {folsom_ets,handler_exists,1,[{file,"src/folsom_ets.erl"},{line,96}]},
+ {folsom_ets,add_handler,2,[{file,"src/folsom_ets.erl"},{line,64}]},
+ {mod_metrics,'-init_folsom/1-fun-0-',2,
+              [{file,"src/mod_metrics.erl"},{line,32}]},
+ {lists,foreach,2,[{file,"lists.erl"},{line,1336}]},
+ {mod_metrics,init_folsom,1,[{file,"src/mod_metrics.erl"},{line,31}]},
+ {mod_metrics,start,2,[{file,"src/mod_metrics.erl"},{line,17}]},
+ {gen_mod,start_module,3,[{file,"src/gen_mod.erl"},{line,82}]},
+ {lists,foreach,2,[{file,"lists.erl"},{line,1336}]},
+ {ejabberd_app,start,2,[{file,"src/ejabberd_app.erl"},{line,69}]},
+ {application_master,start_it_old,4,
+                     [{file,"application_master.erl"},{line,272}]}]
+2016-01-05 19:08:36.389 [critical] <0.320.0>@gen_mod:start_module:98 ejabberd initialization was aborted because a module start failed.
+The trace is [{ets,member,[folsom,{<<"kwangje_mac">>,sessionSuccessfulLogins}],[]},{folsom_ets,handler_exists,1,[{file,"src/folsom_ets.erl"},{line,96}]},{folsom_ets,add_handler,2,[{file,"src/folsom_ets.erl"},{line,64}]},{mod_metrics,'-init_folsom/1-fun-0-',2,[{file,"src/mod_metrics.erl"},{line,32}]},{lists,foreach,2,[{file,"lists.erl"},{line,1336}]},{mod_metrics,init_folsom,1,[{file,"src/mod_metrics.erl"},{line,31}]},{mod_metrics,start,2,[{file,"src/mod_metrics.erl"},{line,17}]},{gen_mod,start_module,3,[{file,"src/gen_mod.erl"},{line,82}]},{lists,foreach,2,[{file,"lists.erl"},{line,1336}]},{ejabberd_app,start,2,[{file,"src/ejabberd_app.erl"},{line,69}]},{application_master,start_it_old,4,[{file,"application_master.erl"},{line,272}]}].
+2016-01-05 19:09:55.438 [error] <0.339.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':watcher(error_logger, 'Elixir.Logger.ErrorHandler', {true,false,500}, link) at <0.344.0> exit with reason normal in context child_terminated
+2016-01-05 19:09:55.520 [info] <0.7.0> Application lager started on node nonode@nohost
+2016-01-05 19:09:56.064 [info] <0.7.0> Application mnesia exited with reason: stopped
+2016-01-05 19:09:56.064 [info] <0.7.0> Application mnesia started on node nonode@nohost
+2016-01-05 19:09:56.138 [info] <0.7.0> Application p1_cache_tab started on node nonode@nohost
+2016-01-05 19:09:57.376 [info] <0.469.0>@mod_stream_management:start:35 mod_stream_management starting
+2016-01-05 19:09:58.037 [info] <0.469.0>@ejabberd_app:start:72 ejabberd 2.1.8+mim-1.5.0-44-g770b9b0 is started in the node nonode@nohost
+2016-01-05 19:09:58.037 [info] <0.7.0> Application ejabberd started on node nonode@nohost
+2016-01-05 19:10:30.418 [warning] <0.6.0> lager_error_logger_h dropped 36 messages in the last second that exceeded the limit of 50 messages/sec
+2016-01-05 19:10:30.418 [info] <0.7.0> Application fs started on node nonode@nohost
+2016-01-05 19:10:30.419 [info] <0.7.0> Application phoenix_live_reload started on node nonode@nohost
+2016-01-05 19:27:49.481 [error] <0.259.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':watcher(error_logger, 'Elixir.Logger.ErrorHandler', {true,false,500}, link) at <0.264.0> exit with reason normal in context child_terminated
+2016-01-05 19:27:49.543 [info] <0.7.0> Application lager started on node nonode@nohost
+2016-01-05 19:27:50.017 [info] <0.7.0> Application mnesia exited with reason: stopped
+2016-01-05 19:27:50.018 [info] <0.7.0> Application mnesia started on node nonode@nohost
+2016-01-05 19:27:50.090 [info] <0.7.0> Application p1_cache_tab started on node nonode@nohost
+2016-01-05 19:27:51.133 [info] <0.390.0>@mod_stream_management:start:35 mod_stream_management starting
+2016-01-05 19:27:51.617 [info] <0.390.0>@ejabberd_app:start:72 ejabberd 2.1.8+mim-1.5.0-44-g770b9b0 is started in the node nonode@nohost
+2016-01-05 19:27:51.617 [info] <0.7.0> Application ejabberd started on node nonode@nohost
+2016-01-05 19:27:52.234 [warning] <0.6.0> lager_error_logger_h dropped 63 messages in the last second that exceeded the limit of 50 messages/sec
+2016-01-05 19:27:52.234 [info] <0.7.0> Application phoenix_mim started on node nonode@nohost
+2016-01-05 19:28:33.004 [info] <0.7.0> Application fs started on node nonode@nohost
+2016-01-05 19:28:33.005 [info] <0.7.0> Application phoenix_live_reload started on node nonode@nohost
+2016-01-05 19:34:29.609 [error] <0.339.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':watcher(error_logger, 'Elixir.Logger.ErrorHandler', {true,false,500}, link) at <0.344.0> exit with reason normal in context child_terminated
+2016-01-05 19:34:29.711 [info] <0.7.0> Application lager started on node nonode@nohost
+2016-01-05 19:34:29.865 [info] <0.7.0> Application sasl started on node nonode@nohost
+2016-01-05 19:34:31.276 [info] <0.7.0> Application mnesia started on node nonode@nohost
+2016-01-05 19:34:31.318 [info] <0.7.0> Application p1_stringprep started on node nonode@nohost
+2016-01-05 19:34:31.328 [info] <0.7.0> Application exml started on node nonode@nohost
+2016-01-05 19:37:17.064 [error] <0.259.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':watcher(error_logger, 'Elixir.Logger.ErrorHandler', {true,false,500}, link) at <0.264.0> exit with reason normal in context child_terminated
+2016-01-05 19:37:17.172 [info] <0.7.0> Application lager started on node nonode@nohost
+2016-01-05 19:37:17.283 [info] <0.7.0> Application sasl started on node nonode@nohost
+2016-01-05 19:37:18.077 [info] <0.7.0> Application mnesia started on node nonode@nohost
+2016-01-05 19:37:18.211 [info] <0.7.0> Application p1_stringprep started on node nonode@nohost
+2016-01-05 19:37:18.237 [info] <0.7.0> Application exml started on node nonode@nohost
+2016-01-05 19:45:35.967 [error] <0.339.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':watcher(error_logger, 'Elixir.Logger.ErrorHandler', {true,false,500}, link) at <0.344.0> exit with reason normal in context child_terminated
+2016-01-05 19:45:36.042 [info] <0.7.0> Application lager started on node nonode@nohost
+2016-01-05 19:45:36.047 [info] <0.7.0> Application mongooseim started on node nonode@nohost
+2016-01-05 19:55:29.142 [error] <0.345.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':watcher(error_logger, 'Elixir.Logger.ErrorHandler', {true,false,500}, link) at <0.350.0> exit with reason normal in context child_terminated
+2016-01-05 19:55:29.250 [info] <0.7.0> Application lager started on node master@localhost
+2016-01-05 19:55:29.396 [info] <0.7.0> Application sasl started on node master@localhost
+2016-01-05 19:55:29.804 [info] <0.7.0> Application mnesia started on node master@localhost
+2016-01-05 19:55:29.846 [info] <0.7.0> Application p1_stringprep started on node master@localhost
+2016-01-05 19:55:29.854 [info] <0.7.0> Application exml started on node master@localhost
+2016-01-05 19:55:30.293 [info] <0.7.0> Application mnesia exited with reason: stopped
+2016-01-05 19:55:30.336 [info] <0.7.0> Application mnesia started on node master@localhost
+2016-01-05 19:55:30.386 [info] <0.7.0> Application p1_cache_tab started on node master@localhost
+2016-01-05 19:55:32.555 [info] <0.445.0>@mod_stream_management:start:35 mod_stream_management starting
+2016-01-05 19:55:35.843 [info] <0.445.0>@ejabberd_app:start:72 ejabberd 2.1.8+mim-1.5.0-44-g770b9b0 is started in the node master@localhost
+2016-01-05 19:55:35.844 [info] <0.7.0> Application ejabberd started on node master@localhost
+2016-01-05 19:56:28.612 [warning] <0.6.0> lager_error_logger_h dropped 57 messages in the last second that exceeded the limit of 50 messages/sec
+2016-01-05 19:56:28.613 [info] <0.7.0> Application fs started on node master@localhost
+2016-01-05 19:56:28.613 [info] <0.7.0> Application phoenix_live_reload started on node master@localhost
+2016-01-05 20:43:56.102 [error] <0.361.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':watcher(error_logger, 'Elixir.Logger.ErrorHandler', {true,false,500}, link) at <0.366.0> exit with reason normal in context child_terminated
+2016-01-05 20:43:56.361 [info] <0.7.0> Application lager started on node master@localhost
+2016-01-05 20:43:57.182 [info] <0.7.0> Application sasl started on node master@localhost
+2016-01-05 20:44:00.679 [info] <0.7.0> Application mnesia started on node master@localhost
+2016-01-05 20:44:01.218 [info] <0.7.0> Application p1_stringprep started on node master@localhost
+2016-01-05 20:44:01.517 [info] <0.7.0> Application exml started on node master@localhost
+2016-01-05 20:44:06.242 [info] <0.7.0> Application mnesia exited with reason: stopped
+2016-01-05 20:44:06.245 [info] <0.7.0> Application mnesia started on node master@localhost
+2016-01-05 20:44:06.912 [info] <0.7.0> Application p1_cache_tab started on node master@localhost
+2016-01-05 20:44:10.912 [info] <0.523.0>@mod_stream_management:start:35 mod_stream_management starting
+2016-01-05 20:44:12.791 [info] <0.523.0>@ejabberd_app:start:72 ejabberd 2.1.8+mim-1.5.0-44-g770b9b0 is started in the node master@localhost
+2016-01-05 20:44:12.791 [info] <0.7.0> Application ejabberd started on node master@localhost
+2016-01-05 20:44:18.144 [warning] <0.6.0> lager_error_logger_h dropped 57 messages in the last second that exceeded the limit of 50 messages/sec
+2016-01-05 20:44:18.144 [info] <0.7.0> Application fs started on node master@localhost
+2016-01-05 20:44:18.144 [info] <0.7.0> Application phoenix_live_reload started on node master@localhost
+2016-01-05 20:47:52.608 [error] <0.361.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':watcher(error_logger, 'Elixir.Logger.ErrorHandler', {true,false,500}, link) at <0.366.0> exit with reason normal in context child_terminated
+2016-01-05 20:47:52.681 [info] <0.7.0> Application lager started on node master@localhost
+2016-01-05 20:47:52.795 [info] <0.7.0> Application sasl started on node master@localhost
+2016-01-05 20:47:53.721 [info] <0.7.0> Application mnesia started on node master@localhost
+2016-01-05 20:47:53.824 [info] <0.7.0> Application p1_stringprep started on node master@localhost
+2016-01-05 20:47:53.828 [info] <0.7.0> Application exml started on node master@localhost
+2016-01-05 21:07:43.692 [error] <0.265.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':watcher(error_logger, 'Elixir.Logger.ErrorHandler', {true,false,500}, link) at <0.270.0> exit with reason normal in context child_terminated
+2016-01-05 21:07:43.788 [info] <0.7.0> Application lager started on node master@localhost
+2016-01-05 21:07:43.894 [info] <0.7.0> Application sasl started on node master@localhost
+2016-01-05 21:07:44.649 [info] <0.7.0> Application mnesia started on node master@localhost
+2016-01-05 21:07:44.727 [info] <0.7.0> Application p1_stringprep started on node master@localhost
+2016-01-05 21:07:44.733 [info] <0.7.0> Application exml started on node master@localhost
+2016-01-05 21:14:35.754 [error] <0.265.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':watcher(error_logger, 'Elixir.Logger.ErrorHandler', {true,false,500}, link) at <0.270.0> exit with reason normal in context child_terminated
+2016-01-05 21:14:35.939 [info] <0.7.0> Application lager started on node master@localhost
+2016-01-05 21:14:36.052 [info] <0.7.0> Application sasl started on node master@localhost
+2016-01-05 21:14:37.182 [info] <0.7.0> Application mnesia started on node master@localhost
+2016-01-05 21:14:37.251 [info] <0.7.0> Application p1_stringprep started on node master@localhost
+2016-01-05 21:14:37.256 [info] <0.7.0> Application exml started on node master@localhost
+2016-01-05 21:27:18.817 [error] <0.265.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':watcher(error_logger, 'Elixir.Logger.ErrorHandler', {true,false,500}, link) at <0.270.0> exit with reason normal in context child_terminated
+2016-01-05 21:27:18.897 [info] <0.7.0> Application lager started on node master@localhost
+2016-01-05 21:27:19.008 [info] <0.7.0> Application sasl started on node master@localhost
+2016-01-05 21:27:19.850 [info] <0.7.0> Application mnesia started on node master@localhost
+2016-01-05 21:27:19.938 [info] <0.7.0> Application p1_stringprep started on node master@localhost
+2016-01-05 21:27:19.945 [info] <0.7.0> Application exml started on node master@localhost
+2016-01-05 21:49:01.911 [error] <0.361.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':watcher(error_logger, 'Elixir.Logger.ErrorHandler', {true,false,500}, link) at <0.366.0> exit with reason normal in context child_terminated
+2016-01-05 21:49:02.058 [info] <0.7.0> Application lager started on node master@localhost
+2016-01-05 21:49:02.590 [info] <0.7.0> Application sasl started on node master@localhost
+2016-01-05 21:49:03.938 [info] <0.7.0> Application mnesia started on node master@localhost
+2016-01-05 21:49:04.099 [info] <0.7.0> Application p1_stringprep started on node master@localhost
+2016-01-05 21:49:04.109 [info] <0.7.0> Application exml started on node master@localhost
+2016-01-05 22:28:34.134 [error] <0.265.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':watcher(error_logger, 'Elixir.Logger.ErrorHandler', {true,false,500}, link) at <0.270.0> exit with reason normal in context child_terminated
+2016-01-05 22:28:34.250 [info] <0.7.0> Application lager started on node master@localhost
+2016-01-05 22:28:34.354 [info] <0.7.0> Application sasl started on node master@localhost
+2016-01-05 22:28:35.372 [info] <0.7.0> Application mnesia started on node master@localhost
+2016-01-05 22:28:35.472 [info] <0.7.0> Application p1_stringprep started on node master@localhost
+2016-01-05 22:28:35.477 [info] <0.7.0> Application exml started on node master@localhost
+2016-01-05 22:29:30.244 [error] <0.265.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':watcher(error_logger, 'Elixir.Logger.ErrorHandler', {true,false,500}, link) at <0.270.0> exit with reason normal in context child_terminated
+2016-01-05 22:29:30.431 [info] <0.7.0> Application lager started on node master@localhost
+2016-01-05 22:29:30.557 [info] <0.7.0> Application sasl started on node master@localhost
+2016-01-05 22:29:31.771 [info] <0.7.0> Application mnesia started on node master@localhost
+2016-01-05 22:29:31.896 [info] <0.7.0> Application p1_stringprep started on node master@localhost
+2016-01-05 22:29:31.926 [info] <0.7.0> Application exml started on node master@localhost
+2016-01-05 22:55:00.310 [error] <0.2364.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':watcher(error_logger, 'Elixir.Logger.ErrorHandler', {true,false,500}, link) at <0.2369.0> exit with reason normal in context child_terminated
+2016-01-05 22:55:00.415 [info] <0.7.0> Application lager started on node master@localhost
+2016-01-05 22:55:00.667 [info] <0.7.0> Application sasl started on node master@localhost
+2016-01-05 22:55:03.041 [info] <0.7.0> Application mnesia started on node master@localhost
+2016-01-05 22:55:03.344 [info] <0.7.0> Application p1_stringprep started on node master@localhost
+2016-01-05 22:55:03.347 [info] <0.7.0> Application exml started on node master@localhost
+2016-01-05 23:05:41.117 [error] <0.438.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':watcher(error_logger, 'Elixir.Logger.ErrorHandler', {true,false,500}, link) at <0.443.0> exit with reason normal in context child_terminated
+2016-01-05 23:05:41.199 [info] <0.7.0> Application lager started on node master@localhost
+2016-01-05 23:05:41.299 [info] <0.7.0> Application sasl started on node master@localhost
+2016-01-05 23:05:42.114 [info] <0.7.0> Application mnesia started on node master@localhost
+2016-01-05 23:05:42.251 [info] <0.7.0> Application p1_stringprep started on node master@localhost
+2016-01-05 23:05:42.258 [info] <0.7.0> Application exml started on node master@localhost
+2016-01-05 23:10:25.503 [error] <0.329.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':watcher(error_logger, 'Elixir.Logger.ErrorHandler', {true,false,500}, link) at <0.334.0> exit with reason normal in context child_terminated
+2016-01-05 23:10:25.724 [info] <0.7.0> Application lager started on node master@localhost
+2016-01-05 23:10:25.930 [info] <0.7.0> Application sasl started on node master@localhost
+2016-01-05 23:10:27.454 [info] <0.7.0> Application mnesia started on node master@localhost
+2016-01-05 23:10:27.720 [info] <0.7.0> Application p1_stringprep started on node master@localhost
+2016-01-05 23:10:27.801 [info] <0.7.0> Application exml started on node master@localhost
+2016-01-06 12:00:39.873 [error] <0.365.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':watcher(error_logger, 'Elixir.Logger.ErrorHandler', {true,false,500}, link) at <0.370.0> exit with reason normal in context child_terminated
+2016-01-06 12:00:40.107 [info] <0.7.0> Application lager started on node master@localhost
+2016-01-06 12:00:40.237 [info] <0.7.0> Application sasl started on node master@localhost
+2016-01-06 12:00:41.408 [info] <0.7.0> Application mnesia started on node master@localhost
+2016-01-06 12:00:41.541 [info] <0.7.0> Application p1_stringprep started on node master@localhost
+2016-01-06 12:00:41.546 [info] <0.7.0> Application exml started on node master@localhost
+2016-01-06 12:00:42.211 [info] <0.7.0> Application mnesia exited with reason: stopped
+2016-01-06 12:00:42.215 [info] <0.7.0> Application mnesia started on node master@localhost
+2016-01-06 12:00:42.331 [info] <0.7.0> Application p1_cache_tab started on node master@localhost
+2016-01-06 12:00:44.521 [info] <0.7.0> Application ejabberd started on node master@localhost
+2016-01-06 12:00:45.086 [warning] <0.6.0> lager_error_logger_h dropped 55 messages in the last second that exceeded the limit of 50 messages/sec
+2016-01-06 12:00:45.087 [info] <0.7.0> Application phoenix_mim started on node master@localhost
+2016-01-06 12:08:48.007 [error] <0.365.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':watcher(error_logger, 'Elixir.Logger.ErrorHandler', {true,false,500}, link) at <0.370.0> exit with reason normal in context child_terminated
+2016-01-06 12:08:48.115 [info] <0.7.0> Application lager started on node master@localhost
+2016-01-06 12:08:48.607 [info] <0.7.0> Application mnesia exited with reason: stopped
+2016-01-06 12:08:48.607 [info] <0.7.0> Application mnesia started on node master@localhost
+2016-01-06 12:08:48.664 [info] <0.7.0> Application p1_cache_tab started on node master@localhost
+2016-01-06 12:09:23.837 [error] <0.365.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':watcher(error_logger, 'Elixir.Logger.ErrorHandler', {true,false,500}, link) at <0.370.0> exit with reason normal in context child_terminated
+2016-01-06 12:09:23.880 [info] <0.7.0> Application lager started on node master@localhost
+2016-01-06 12:09:24.539 [info] <0.7.0> Application mnesia exited with reason: stopped
+2016-01-06 12:09:24.539 [info] <0.7.0> Application mnesia started on node master@localhost
+2016-01-06 12:09:24.563 [info] <0.7.0> Application p1_cache_tab started on node master@localhost
+2016-01-06 12:09:26.105 [info] <0.7.0> Application ejabberd started on node master@localhost
+2016-01-06 12:09:27.580 [warning] <0.6.0> lager_error_logger_h dropped 34 messages in the last second that exceeded the limit of 50 messages/sec
+2016-01-06 12:09:27.580 [info] <0.7.0> Application phoenix_mim started on node master@localhost
+2016-01-06 12:09:37.427 [info] <0.7.0> Application fs started on node master@localhost
+2016-01-06 12:09:37.427 [info] <0.7.0> Application phoenix_live_reload started on node master@localhost
+2016-01-06 12:12:35.583 [error] <0.365.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':watcher(error_logger, 'Elixir.Logger.ErrorHandler', {true,false,500}, link) at <0.370.0> exit with reason normal in context child_terminated
+2016-01-06 12:12:35.697 [info] <0.7.0> Application lager started on node master@localhost
+2016-01-06 12:12:35.828 [info] <0.7.0> Application sasl started on node master@localhost
+2016-01-06 12:12:36.872 [info] <0.7.0> Application mnesia started on node master@localhost
+2016-01-06 12:12:36.992 [info] <0.7.0> Application p1_stringprep started on node master@localhost
+2016-01-06 12:12:36.996 [info] <0.7.0> Application exml started on node master@localhost
+2016-01-06 12:12:37.610 [info] <0.7.0> Application mnesia exited with reason: stopped
+2016-01-06 12:12:37.613 [info] <0.7.0> Application mnesia started on node master@localhost
+2016-01-06 12:12:37.704 [info] <0.7.0> Application p1_cache_tab started on node master@localhost
+2016-01-06 12:12:39.736 [info] <0.7.0> Application ejabberd started on node master@localhost
+2016-01-06 12:12:44.330 [warning] <0.6.0> lager_error_logger_h dropped 7 messages in the last second that exceeded the limit of 50 messages/sec
+2016-01-06 12:12:44.331 [info] <0.7.0> Application fs started on node master@localhost
+2016-01-06 12:12:44.331 [info] <0.7.0> Application phoenix_live_reload started on node master@localhost
+2016-01-06 12:18:03.998 [error] <0.269.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':watcher(error_logger, 'Elixir.Logger.ErrorHandler', {true,false,500}, link) at <0.274.0> exit with reason normal in context child_terminated
+2016-01-06 12:18:04.106 [info] <0.7.0> Application lager started on node master@localhost
+2016-01-06 12:18:04.275 [info] <0.7.0> Application sasl started on node master@localhost
+2016-01-06 12:18:05.493 [info] <0.7.0> Application mnesia started on node master@localhost
+2016-01-06 12:18:05.612 [info] <0.7.0> Application p1_stringprep started on node master@localhost
+2016-01-06 12:18:05.630 [info] <0.7.0> Application exml started on node master@localhost
+2016-01-06 12:18:06.248 [info] <0.7.0> Application mnesia exited with reason: stopped
+2016-01-06 12:18:06.251 [info] <0.7.0> Application mnesia started on node master@localhost
+2016-01-06 12:18:06.284 [info] <0.7.0> Application p1_cache_tab started on node master@localhost
+2016-01-06 12:18:09.064 [info] <0.7.0> Application ejabberd started on node master@localhost
+2016-01-06 12:18:16.673 [warning] <0.6.0> lager_error_logger_h dropped 57 messages in the last second that exceeded the limit of 50 messages/sec
+2016-01-06 12:18:16.674 [info] <0.7.0> Application fs started on node master@localhost
+2016-01-06 12:18:16.674 [info] <0.7.0> Application phoenix_live_reload started on node master@localhost

@@ -1,0 +1,107 @@
+2016-01-05 20:47:53.988 [error] <0.361.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':watcher(error_logger, 'Elixir.Logger.ErrorHandler', {true,false,500}, link) at <0.423.0> exit with reason normal in context child_terminated
+2016-01-05 20:47:53.994 [notice] <0.528.0>@lager_file_backend:128 Changed loglevel of log/ejabberd.log to info
+2016-01-05 20:47:54.081 [info] <0.7.0> Application mnesia exited with reason: stopped
+2016-01-05 20:47:54.438 [info] <0.7.0> Application mnesia started on node master@localhost
+2016-01-05 20:47:54.510 [info] <0.7.0> Application p1_cache_tab started on node master@localhost
+2016-01-05 20:47:55.348 [notice] <0.528.0>@lager_file_backend:128 Changed loglevel of log/ejabberd.log to info
+2016-01-05 20:47:55.674 [info] <0.523.0>@mod_stream_management:start:35 mod_stream_management starting
+2016-01-05 20:47:56.129 [info] <0.523.0>@ejabberd_app:start:72 ejabberd 2.1.8+mim-1.5.0-44-g770b9b0 is started in the node master@localhost
+2016-01-05 20:47:56.129 [info] <0.7.0> Application ejabberd started on node master@localhost
+2016-01-05 20:48:15.112 [warning] <0.6.0> lager_error_logger_h dropped 31 messages in the last second that exceeded the limit of 50 messages/sec
+2016-01-05 20:48:15.113 [info] <0.7.0> Application fs started on node master@localhost
+2016-01-05 20:48:15.113 [info] <0.7.0> Application phoenix_live_reload started on node master@localhost
+2016-01-05 21:07:44.893 [error] <0.265.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':watcher(error_logger, 'Elixir.Logger.ErrorHandler', {true,false,500}, link) at <0.327.0> exit with reason normal in context child_terminated
+2016-01-05 21:07:44.899 [notice] <0.432.0>@lager_file_backend:128 Changed loglevel of log/ejabberd.log to info
+2016-01-05 21:07:45.035 [info] <0.7.0> Application mnesia exited with reason: stopped
+2016-01-05 21:07:45.216 [info] <0.7.0> Application mnesia started on node master@localhost
+2016-01-05 21:07:45.290 [info] <0.7.0> Application p1_cache_tab started on node master@localhost
+2016-01-05 21:07:46.049 [notice] <0.432.0>@lager_file_backend:128 Changed loglevel of log/ejabberd.log to info
+2016-01-05 21:07:46.391 [info] <0.427.0>@mod_stream_management:start:35 mod_stream_management starting
+2016-01-05 21:07:46.951 [info] <0.427.0>@ejabberd_app:start:72 ejabberd 2.1.8+mim-1.5.0-44-g770b9b0 is started in the node master@localhost
+2016-01-05 21:07:46.951 [info] <0.7.0> Application ejabberd started on node master@localhost
+2016-01-05 21:08:01.363 [warning] <0.6.0> lager_error_logger_h dropped 32 messages in the last second that exceeded the limit of 50 messages/sec
+2016-01-05 21:08:01.363 [info] <0.7.0> Application fs started on node master@localhost
+2016-01-05 21:08:01.363 [info] <0.7.0> Application phoenix_live_reload started on node master@localhost
+2016-01-05 21:14:37.408 [error] <0.265.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':watcher(error_logger, 'Elixir.Logger.ErrorHandler', {true,false,500}, link) at <0.327.0> exit with reason normal in context child_terminated
+2016-01-05 21:14:37.415 [notice] <0.432.0>@lager_file_backend:128 Changed loglevel of log/ejabberd.log to info
+2016-01-05 21:14:37.571 [info] <0.7.0> Application mnesia exited with reason: stopped
+2016-01-05 21:14:37.777 [info] <0.7.0> Application mnesia started on node master@localhost
+2016-01-05 21:14:37.853 [info] <0.7.0> Application p1_cache_tab started on node master@localhost
+2016-01-05 21:14:38.606 [notice] <0.432.0>@lager_file_backend:128 Changed loglevel of log/ejabberd.log to info
+2016-01-05 21:14:38.932 [info] <0.427.0>@mod_stream_management:start:35 mod_stream_management starting
+2016-01-05 21:14:39.363 [info] <0.427.0>@ejabberd_app:start:72 ejabberd 2.1.8+mim-1.5.0-44-g770b9b0 is started in the node master@localhost
+2016-01-05 21:14:39.363 [info] <0.7.0> Application ejabberd started on node master@localhost
+2016-01-05 21:14:55.261 [warning] <0.6.0> lager_error_logger_h dropped 74 messages in the last second that exceeded the limit of 50 messages/sec
+2016-01-05 21:27:20.092 [error] <0.265.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':watcher(error_logger, 'Elixir.Logger.ErrorHandler', {true,false,500}, link) at <0.327.0> exit with reason normal in context child_terminated
+2016-01-05 21:27:20.098 [notice] <0.432.0>@lager_file_backend:128 Changed loglevel of log/ejabberd.log to info
+2016-01-05 21:27:20.196 [info] <0.7.0> Application mnesia exited with reason: stopped
+2016-01-05 21:27:20.376 [info] <0.7.0> Application mnesia started on node master@localhost
+2016-01-05 21:27:20.457 [info] <0.7.0> Application p1_cache_tab started on node master@localhost
+2016-01-05 21:27:21.210 [notice] <0.432.0>@lager_file_backend:128 Changed loglevel of log/ejabberd.log to info
+2016-01-05 21:27:21.481 [info] <0.427.0>@mod_stream_management:start:35 mod_stream_management starting
+2016-01-05 21:27:21.966 [info] <0.427.0>@ejabberd_app:start:72 ejabberd 2.1.8+mim-1.5.0-44-g770b9b0 is started in the node master@localhost
+2016-01-05 21:27:21.966 [info] <0.7.0> Application ejabberd started on node master@localhost
+2016-01-05 21:27:34.750 [warning] <0.6.0> lager_error_logger_h dropped 30 messages in the last second that exceeded the limit of 50 messages/sec
+2016-01-05 21:27:34.751 [info] <0.7.0> Application fs started on node master@localhost
+2016-01-05 21:27:34.751 [info] <0.7.0> Application phoenix_live_reload started on node master@localhost
+2016-01-05 21:49:04.411 [error] <0.361.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':watcher(error_logger, 'Elixir.Logger.ErrorHandler', {true,false,500}, link) at <0.423.0> exit with reason normal in context child_terminated
+2016-01-05 21:49:04.418 [notice] <0.532.0>@lager_file_backend:128 Changed loglevel of log/ejabberd.log to info
+2016-01-05 21:49:04.627 [info] <0.7.0> Application mnesia exited with reason: stopped
+2016-01-05 21:49:04.842 [info] <0.7.0> Application mnesia started on node master@localhost
+2016-01-05 21:49:04.928 [info] <0.7.0> Application p1_cache_tab started on node master@localhost
+2016-01-05 21:49:06.298 [notice] <0.532.0>@lager_file_backend:128 Changed loglevel of log/ejabberd.log to info
+2016-01-05 21:49:06.879 [info] <0.527.0>@mod_stream_management:start:35 mod_stream_management starting
+2016-01-05 21:49:07.456 [info] <0.527.0>@ejabberd_app:start:72 ejabberd 2.1.8+mim-1.5.0-44-g770b9b0 is started in the node master@localhost
+2016-01-05 21:49:07.457 [info] <0.7.0> Application ejabberd started on node master@localhost
+2016-01-05 21:49:08.003 [warning] <0.6.0> lager_error_logger_h dropped 68 messages in the last second that exceeded the limit of 50 messages/sec
+2016-01-05 21:49:08.003 [info] <0.7.0> Application phoenix_mim started on node master@localhost
+2016-01-05 21:49:56.207 [info] <0.7.0> Application fs started on node master@localhost
+2016-01-05 21:49:56.207 [info] <0.7.0> Application phoenix_live_reload started on node master@localhost
+2016-01-05 22:28:35.641 [error] <0.265.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':watcher(error_logger, 'Elixir.Logger.ErrorHandler', {true,false,500}, link) at <0.327.0> exit with reason normal in context child_terminated
+2016-01-05 22:28:35.647 [notice] <0.432.0>@lager_file_backend:128 Changed loglevel of log/ejabberd.log to info
+2016-01-05 22:28:35.770 [info] <0.7.0> Application mnesia exited with reason: stopped
+2016-01-05 22:28:36.106 [info] <0.7.0> Application mnesia started on node master@localhost
+2016-01-05 22:28:36.195 [info] <0.7.0> Application p1_cache_tab started on node master@localhost
+2016-01-05 22:28:37.050 [notice] <0.432.0>@lager_file_backend:128 Changed loglevel of log/ejabberd.log to info
+2016-01-05 22:28:37.355 [info] <0.427.0>@mod_stream_management:start:35 mod_stream_management starting
+2016-01-05 22:28:37.763 [info] <0.427.0>@ejabberd_app:start:72 ejabberd 2.1.8+mim-1.5.0-44-g770b9b0 is started in the node master@localhost
+2016-01-05 22:28:37.763 [info] <0.7.0> Application ejabberd started on node master@localhost
+2016-01-05 22:28:38.008 [warning] <0.6.0> lager_error_logger_h dropped 80 messages in the last second that exceeded the limit of 50 messages/sec
+2016-01-05 22:28:38.520 [info] <0.7.0> Application phoenix_mim started on node master@localhost
+2016-01-05 22:29:32.443 [error] <0.265.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':watcher(error_logger, 'Elixir.Logger.ErrorHandler', {true,false,500}, link) at <0.327.0> exit with reason normal in context child_terminated
+2016-01-05 22:29:32.453 [notice] <0.432.0>@lager_file_backend:128 Changed loglevel of log/ejabberd.log to info
+2016-01-05 22:29:32.830 [info] <0.7.0> Application mnesia exited with reason: stopped
+2016-01-05 22:29:33.555 [info] <0.7.0> Application mnesia started on node master@localhost
+2016-01-05 22:29:33.625 [info] <0.7.0> Application p1_cache_tab started on node master@localhost
+2016-01-05 22:29:34.506 [notice] <0.432.0>@lager_file_backend:128 Changed loglevel of log/ejabberd.log to info
+2016-01-05 22:29:34.857 [info] <0.425.0>@mod_stream_management:start:35 mod_stream_management starting
+2016-01-05 22:29:35.411 [info] <0.425.0>@ejabberd_app:start:72 ejabberd 2.1.8+mim-1.5.0-44-g770b9b0 is started in the node master@localhost
+2016-01-05 22:29:35.412 [info] <0.7.0> Application ejabberd started on node master@localhost
+2016-01-05 22:29:55.458 [warning] <0.6.0> lager_error_logger_h dropped 68 messages in the last second that exceeded the limit of 50 messages/sec
+2016-01-05 22:55:03.421 [error] <0.2364.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':watcher(error_logger, 'Elixir.Logger.ErrorHandler', {true,false,500}, link) at <0.2426.0> exit with reason normal in context child_terminated
+2016-01-05 22:55:03.449 [notice] <0.2531.0>@lager_file_backend:128 Changed loglevel of log/ejabberd.log to info
+2016-01-05 22:55:03.544 [info] <0.7.0> Application mnesia exited with reason: stopped
+2016-01-05 22:55:03.780 [info] <0.7.0> Application mnesia started on node master@localhost
+2016-01-05 22:55:03.993 [info] <0.7.0> Application p1_cache_tab started on node master@localhost
+2016-01-05 22:55:06.738 [notice] <0.2531.0>@lager_file_backend:128 Changed loglevel of log/ejabberd.log to info
+2016-01-05 22:55:07.141 [info] <0.2526.0>@mod_stream_management:start:35 mod_stream_management starting
+2016-01-05 22:55:07.713 [info] <0.2526.0>@ejabberd_app:start:72 ejabberd 2.1.8+mim-1.5.0-44-g770b9b0 is started in the node master@localhost
+2016-01-05 22:55:07.713 [info] <0.7.0> Application ejabberd started on node master@localhost
+2016-01-05 22:55:21.833 [warning] <0.6.0> lager_error_logger_h dropped 82 messages in the last second that exceeded the limit of 50 messages/sec
+2016-01-05 23:05:42.319 [error] <0.438.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':watcher(error_logger, 'Elixir.Logger.ErrorHandler', {true,false,500}, link) at <0.500.0> exit with reason normal in context child_terminated
+2016-01-05 23:05:42.346 [notice] <0.605.0>@lager_file_backend:128 Changed loglevel of log/ejabberd.log to info
+2016-01-05 23:05:42.398 [info] <0.7.0> Application mnesia exited with reason: stopped
+2016-01-05 23:05:42.637 [info] <0.7.0> Application mnesia started on node master@localhost
+2016-01-05 23:05:42.706 [info] <0.7.0> Application p1_cache_tab started on node master@localhost
+2016-01-05 23:05:43.520 [notice] <0.605.0>@lager_file_backend:128 Changed loglevel of log/ejabberd.log to info
+2016-01-05 23:05:43.863 [info] <0.7.0> Application ejabberd started on node master@localhost
+2016-01-05 23:05:51.458 [warning] <0.6.0> lager_error_logger_h dropped 30 messages in the last second that exceeded the limit of 50 messages/sec
+2016-01-05 23:10:28.144 [error] <0.329.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':watcher(error_logger, 'Elixir.Logger.ErrorHandler', {true,false,500}, link) at <0.391.0> exit with reason normal in context child_terminated
+2016-01-05 23:10:28.184 [notice] <0.496.0>@lager_file_backend:128 Changed loglevel of log/ejabberd.log to info
+2016-01-05 23:10:28.349 [info] <0.7.0> Application mnesia exited with reason: stopped
+2016-01-05 23:10:29.098 [info] <0.7.0> Application mnesia started on node master@localhost
+2016-01-05 23:10:29.501 [info] <0.7.0> Application p1_cache_tab started on node master@localhost
+2016-01-05 23:10:30.814 [notice] <0.496.0>@lager_file_backend:128 Changed loglevel of log/ejabberd.log to info
+2016-01-05 23:10:33.105 [info] <0.7.0> Application ejabberd started on node master@localhost
+2016-01-05 23:10:34.044 [warning] <0.6.0> lager_error_logger_h dropped 30 messages in the last second that exceeded the limit of 50 messages/sec
+2016-01-05 23:10:34.274 [info] <0.7.0> Application phoenix_mim started on node master@localhost

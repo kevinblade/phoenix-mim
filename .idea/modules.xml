@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/deps/connection/connection.iml" filepath="$PROJECT_DIR$/deps/connection/connection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/deps/decimal/decimal.iml" filepath="$PROJECT_DIR$/deps/decimal/decimal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/deps/ecto/ecto.iml" filepath="$PROJECT_DIR$/deps/ecto/ecto.iml" />
+      <module fileurl="file://$PROJECT_DIR$/deps/gettext/gettext.iml" filepath="$PROJECT_DIR$/deps/gettext/gettext.iml" />
+      <module fileurl="file://$PROJECT_DIR$/deps/mariaex/mariaex.iml" filepath="$PROJECT_DIR$/deps/mariaex/mariaex.iml" />
+      <module fileurl="file://$PROJECT_DIR$/deps/phoenix/phoenix.iml" filepath="$PROJECT_DIR$/deps/phoenix/phoenix.iml" />
+      <module fileurl="file://$PROJECT_DIR$/deps/phoenix_ecto/phoenixecto.iml" filepath="$PROJECT_DIR$/deps/phoenix_ecto/phoenixecto.iml" />
+      <module fileurl="file://$PROJECT_DIR$/deps/phoenix_html/phoenixhtml.iml" filepath="$PROJECT_DIR$/deps/phoenix_html/phoenixhtml.iml" />
+      <module fileurl="file://$PROJECT_DIR$/deps/phoenix_live_reload/phoenixlivereload.iml" filepath="$PROJECT_DIR$/deps/phoenix_live_reload/phoenixlivereload.iml" />
+      <module fileurl="file://$PROJECT_DIR$/phoenixmim.iml" filepath="$PROJECT_DIR$/phoenixmim.iml" />
+      <module fileurl="file://$PROJECT_DIR$/deps/plug/plug.iml" filepath="$PROJECT_DIR$/deps/plug/plug.iml" />
+      <module fileurl="file://$PROJECT_DIR$/deps/poison/poison.iml" filepath="$PROJECT_DIR$/deps/poison/poison.iml" />
+    </modules>
+  </component>
+</project>
