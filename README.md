@@ -1,19 +1,19 @@
 # PhoenixMim
 
-To start your Phoenix app:
+Thank you Mickaël Rémond:
 
-  1. Install dependencies with `mix deps.get`
-  2. Create and migrate your database with `mix ecto.create && mix ecto.migrate`
-  3. Start Phoenix endpoint with `mix phoenix.server`
+When I was impressed from [`Mickaël Rémond's blog`](https://blog.process-one.net/embedding-ejabberd-into-an-elixir-phoenix-web-application/)
+I decided to make it to work for MongooseIM + Phoenix. After several trial and error I have done it to work.
+This is a very simple prototype for embedding MongooseIM into Phoenix.
+It is responsible to you how to use it.
 
-Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
+To start this app:
 
-Ready to run in production? Please [check our deployment guides](http://www.phoenixframework.org/docs/deployment).
+  1. git clone https://github.com/kevinblade/phoenix-mim.git
+  2. cd phoenix-mim
+  3. mix deps.get
+  3. iex --name master@localhost --cookie cookie@localhost mix -S phoenix.server
+  4. iex> :ejabberd_auth.try_register("username", "localhost", "password")
 
-## Learn more
-
-  * Official website: http://www.phoenixframework.org/
-  * Guides: http://phoenixframework.org/docs/overview
-  * Docs: http://hexdocs.pm/phoenix
-  * Mailing list: http://groups.google.com/group/phoenix-talk
-  * Source: https://github.com/phoenixframework/phoenix
+Now you can visit [`localhost:4000/ejabberd`](http://localhost:4000/ejabberd) from your browser.
+And then you will be able to see online users on your browser.
