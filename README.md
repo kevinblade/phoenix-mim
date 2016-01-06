@@ -7,6 +7,18 @@ I decided to make it to work for MongooseIM + Phoenix. After several trial and e
 This is a very simple prototype for embedding MongooseIM into Phoenix.
 It is responsible to you how to use it.
 
+Prerequisites:
+
+  1. erlang r17
+  2. [`kiex`](https://github.com/taylor/kiex): Elixir version manager
+  3. elixir 1.1.1 (kiex install 1.1.1)
+  4. rebar
+
+Dependencies:
+
+  1. mongooseim (branch phoenix-integration)
+  2. Refer to mim.exs
+
 To start this app:
 
   1. git clone https://github.com/kevinblade/phoenix-mim.git
